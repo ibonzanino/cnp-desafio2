@@ -99,10 +99,6 @@ main {
   animation-iteration-count: infinite;
 }
 
-
-
-
-
 @media (width > 700px) {
   .nav-hide {
     display: block;
