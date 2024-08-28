@@ -45,7 +45,7 @@ nav a {
   text-decoration: none;
   padding: 8px 16px;
   border-radius: 8px;
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 nav a:hover {
@@ -207,6 +207,16 @@ form button:hover {
   transform: scale(1.05);
 }
 
+footer {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
+
 @media (width > 700px) {
   .nav-hide {
     display: block;
@@ -218,5 +228,12 @@ form button:hover {
 
   .grid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  footer {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
   }
 }
